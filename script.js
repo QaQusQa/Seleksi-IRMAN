@@ -325,7 +325,7 @@ const data = [
     {
         "nisn": "252007047",
         "tanggal": "27-07-2007",
-        "nama": "Verjhio Akayashi Aldiano",
+        "nama": "Verjhio Akayashi Aldeyano",
         "status": "LOLOS",
         "divisi": "Kewirausahaan"
     },
