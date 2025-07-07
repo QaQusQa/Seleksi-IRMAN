@@ -1,0 +1,108 @@
+
+body {
+    background-image: url(IMG_2288.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-width: 100%;
+    width: 500px;
+    padding: 20px;
+    justify-self: center;
+}
+.result-box {
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    padding: 0;
+    max-width: 500px;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.header-content {
+    background: linear-gradient(to right, #989898, #b1b1b1, #d6d4d4);
+    backdrop-filter: blur(6px) ;
+    width: 100%;
+    padding: 20px 5px;
+    border-radius: 8px 8px 0 0; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.ucapan {
+    color: #fff;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px ;
+    display: block;
+    max-width: 100%;
+    box-sizing: border-box;
+
+}
+.ucapan h1 {
+    font-size: 35 ;
+}
+.ucapan h2 {
+    font-size: 15;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.header-content text h1,
+.header-content text h2 {
+    margin: 0;
+    line-height: 1.1;
+}
+.header-content img {
+    width: 100px;
+    align-self: center;
+}
+.info-box {
+    display: flex;
+    flex-direction: column;
+    margin: 10 10 0 10;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.info-box .nisn {
+    color: #bba10d;
+    font-size: 20;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.info-box .nama {
+    color: #fff;
+    font-weight: bold;
+    font-size: 40;
+    text-transform: uppercase;
+    margin-bottom: 4px 0;
+}
+.kolom {
+    flex-direction: column;
+    font-weight: bold;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+.info-box .keterangan {
+    color: #bba10d;
+    font-size: 15;
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
+.info-box .tanggal {
+    color: #fff;
+    font-size: 20;
+    margin-bottom: 0;
+}
