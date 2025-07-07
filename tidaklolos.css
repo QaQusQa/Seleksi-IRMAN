@@ -23,8 +23,11 @@ body {
     width: 100%;
     margin: 0;
     overflow: hidden;
+    height: 100vh;
     max-width: 100%;
-    box-sizing: border-box;
+    width: 500px;
+    padding: 20px;
+    justify-self: center;
 }
 .header-content {
     background: linear-gradient(to right, #989898, #b1b1b1, #d6d4d4);
