@@ -1,0 +1,125 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(IMG_2288.JPG);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+.header-content {
+    background: linear-gradient(to right, #d2c984, #cfcc84, #d6d3bf);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius:8 8 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+
+}
+.header-content img {
+    height: auto;
+    width: 50%;
+}
+.header-content h1 {
+    font-size: 1.63rem;
+    color: #fff;
+    margin: 0;
+}
+.card {
+    max-width: 100%;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    padding: 0;
+    max-width: 500px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+    color: white;
+    margin: 0;
+    overflow: hidden;
+}
+.card img {
+    width: 100px;
+    margin: 0;
+    display: block;
+}
+.card h1 {
+    font-size: 2.95rem;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.form-group {
+    margin-bottom: 0px;
+    padding: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(255,255,255,0.1);
+    margin-bottom: 5px;
+    font-size: 18;
+    color: white ;
+}
+input ::placeholder {
+    color: #aaa;
+}
+.tanggal-wrapper {
+    display: flex;
+    gap: 2px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.tanggal-wrapper input {
+    flex: 1;
+    text-align: center;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.slash {
+    padding: 15px;
+    color: #ccc;
+    line-height: 40px;
+    font-size: 40;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+button {
+    background-color: #0288d1;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    font-size: 18;
+    font-weight: bold;
+    cursor: pointer;
+    width: 50%;
+    transition: background-color 0.3s ease;
+    margin: 20px;
+}
+button:hover {
+    background-color: #0277bd;
+}
