@@ -103,6 +103,7 @@ body {
     font-weight: bold;
     max-width: 100%;
     box-sizing: border-box;
+    margin-bottom: 35px;
 }
 .info-box .keterangan {
     color: #bba10d;
